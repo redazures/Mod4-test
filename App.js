@@ -15,22 +15,20 @@ import ListItems from "./app/components/ListItems";
 import AccountScreen from "./app/screens/AccountScreen";
 import ListingsScreen from "./app/screens/ListingsScreen";
 import { TextInput } from "react-native-gesture-handler";
-import AppTextInput from "./app/components/AppTextInput";
+import AppTextInput from "./app/components/TextInput";
 
 import colors from './app/config/colors'
-import AppPicker from "./app/components/AppPicker";
+import AppPicker from "./app/components/Picker";
 import LoginScreen from './app/screens/LoginScreen'
-
-const categories=[
-  {label:"Medical", value:1},
-  {label:"Surgery", value:2},
-  {label:"ICU", value:3},
-]
+import RegisterScreen from './app/screens/RegisterScreen'
+import ListEditScreen from './app/screens/ListEditScreen'
 
 export default function App() {
   
   console.log("render")
   return (
+
     <MessagesScreen/>
+
   );
 }
