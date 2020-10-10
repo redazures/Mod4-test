@@ -27,6 +27,8 @@ export default function App() {
   
   console.log("render")
   return (
-    <ListEditScreen/>
+
+    <MessagesScreen/>
+
   );
 }
